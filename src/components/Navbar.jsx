@@ -19,20 +19,20 @@ function Navbar() {
     <>
       <nav className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
         <div className="max-w-screen-2xl mx-auto px-4 md:px-20 h-16 flex justify-between items-center">
-       
+
           <div className="flex space-x-2">
             <img
-               src={srk}
+              src={srk}
               className="h-12 w-12 rounded-full cursor-pointer hover:scale-105 transition"
-               alt="Profile"
-               onClick={() => setIsModalOpen(true)} 
+              alt="Profile"
+              onClick={() => setIsModalOpen(true)}
             />
-             <h1 className="font-semibold text-xl cursor-pointer">
+            <h1 className="font-semibold text-xl cursor-pointer">
               Shah{" "}
               <span className="text-green-500 text-2xl">Rukh</span>
               <p className="text-sm">Software Engineer</p>
-             </h1>
-           </div>
+            </h1>
+          </div>
 
 
           <ul className="hidden md:flex space-x-8 text-lg font-medium">
@@ -83,25 +83,25 @@ function Navbar() {
           </div>
         )}
         {isModalOpen && (
-        <div
-          className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-80 z-50"
-          onClick={() => setIsModalOpen(false)} 
-        >
-          <div className="relative">
-            <img
-              src={srk}
-              className="max-w-full max-h-screen rounded-lg shadow-lg"
-              alt="Full Profile"
-            />
-            <button
-              className="absolute top-4 right-4 text-white text-3xl font-bold"
-              onClick={() => setIsModalOpen(false)}
-            >
-              ×
-            </button>
+          <div
+            className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-80 z-50"
+            onClick={() => setIsModalOpen(false)}
+          >
+            <div className="relative">
+              <img
+                src={srk}
+                className="max-w-full max-h-screen rounded-lg shadow-lg"
+                alt="Full Profile"
+              />
+              <button
+                className="absolute top-4 right-4 text-white text-3xl font-bold"
+                onClick={() => setIsModalOpen(false)}
+              >
+                ×
+              </button>
+            </div>
           </div>
-        </div>
-      )}
+        )}
       </nav>
     </>
   );

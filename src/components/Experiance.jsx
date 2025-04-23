@@ -6,23 +6,22 @@ const Experience = () => {
       id: 1,
       position: "Full Stack Developer",
       company: "Revolution Software Services Pvt. Ltd. Jaipur",
-      duration: "Aug 2024 - Present",
-      description: "Developed and maintained web applications using MERN stack.",
+      duration: "April 2024 - Present",
+      description: "*Developed and deployed scalable web applications using the MERN stack with TypeScript, focusing on performance and maintainability. *Implemented RESTful APIs and integrated third-party services to enhance application functionality. *Contributed to architecture decisions and worked on Docker and CI/CD pipelines. *Led frontend initiatives using React, Redux Toolkit, and TailwindCSS, ensuring a responsive and user-centric design. *Collaborated with DevOps team to automate testing and streamline deployment using GitHub Actions and AWS. ",
     },
     {
       id: 2,
-      position: "MERN Stack Developer",
+      position: "Full Stack Developer Intern",
       company: "Global IT Providers, Jaipur",
-      duration: "Jan 2024 - Aug 2024",
-      description:
-        "Built and optimized scalable RESTful APIs using Node.js and Express.",
+      duration: "Nov 2023 - April 2024",
+      description: "*Assisted in building and maintaining full-stack features using React.js, Node.js, and MongoDB. *Worked on implementing JWT-based authentication and authorization systems. *Integrated APIs and improved existing backend logic for better performance and scalability. *Collaborated closely with UI/UX designers to align the user interface with business requirements",
     },
     {
       id: 3,
-      position: "MERN Stack Developer Intern",
+      position: "Full Stack Developer Trainee",
       company: "Grras Solutions (P) Ltd. Jaipur",
-      duration: "Sep 2023 - Jan 2024",
-      description: "Worked on integrating third-party APIs and database management.",
+      duration: "Aug 2023 - Nov 2023",
+      description: "*Learned and practiced core MERN stack development through real-world projects. *Created responsive UIs with React and styled-components, gaining hands-on experience with frontend development. *Wrote and consumed RESTful APIs using Express.js and MongoDB. *Gained practical knowledge of Git version control and agile development methodologies. *Built basic authentication and CRUD functionalities for internal web applications.",
     },
   ];
 

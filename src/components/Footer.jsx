@@ -14,7 +14,6 @@ function Footer() {
       <footer className="py-12 bg-gray-100">
         <div className="max-w-screen-2xl container mx-auto px-4 md:px-20">
           <div className="flex flex-col items-center justify-center">
-            {/* Social Media Icons */}
             <div className="flex space-x-6">
               <a
                 href="https://www.facebook.com/share/19zng8b16c/"
@@ -47,7 +46,7 @@ function Footer() {
                 className="text-gray-700 hover:text-blue-700 transition duration-300"
               >
                 <FaLinkedinIn size={28} />
-              </a>
+              </a>        
               <a
                 href="https://github.com/iamsrk0786"
                 target="_blank"
@@ -58,7 +57,6 @@ function Footer() {
               </a>
             </div>
 
-            {/* Footer Text */}
             <div className="mt-8 border-t border-gray-400 pt-6 text-center">
               <p className="text-sm text-gray-600">
                 &copy; 2025 <span className="font-semibold">ShaRK the ShaRP</span>. All rights reserved.
